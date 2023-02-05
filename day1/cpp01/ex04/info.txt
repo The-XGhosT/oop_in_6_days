@@ -1,0 +1,31 @@
+file howa wa7ed blasa 3ndaha smiya kan9adro nst3amloha bach nkhezno fiha
+des infos ex : main.cpp howa wa7ed file t9dar tkteb fih program b cpp
+
+in c++ kansta3mlo "fstream" bach nkhedmo b files
+
+opening a file means connecting our program with the file we use the open()
+function to open a file for example
+
+"obj.open(file_path, mode)"
+
+@obj -object of fstreamt class
+@file path -string that specifies the 
+full path of a file including 
+the file name
+@mode - specifies whether the file is opened in 
+reading mode or writing mode 
+
+ios::in ==>input ==> for reading
+ios::out ==> output ==> for writing
+ios::app ==> append ==>for appending
+
+
+
+check file status
+.fail()
+true ==> if an error
+false ==> if not an error
+
+close a file
+
+.close()
