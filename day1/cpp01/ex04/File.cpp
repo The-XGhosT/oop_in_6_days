@@ -49,3 +49,11 @@ std::string ft_open_a_file(std::string name)
     file.close();
     return(str);
 }
+
+void creat_a_repalce_file(std::string name, std::string content)
+{
+    std::fstream nfile;
+    name = name + ".replace";
+    nfile.open(name, std::ios::out);
+    nfile << content;
+}
