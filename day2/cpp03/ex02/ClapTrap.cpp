@@ -18,7 +18,7 @@ ClapTrap::ClapTrap()
     this->HitPoints = 10 ;
     this->EnergyPoints = 10 ;
     this->AttackDamage = 0;
-    std::cout << "Default constructor called \'ex01\'"<<std::endl;
+    std::cout << "Default constructor called \'ex02\'"<<std::endl;
 }
 
 ClapTrap::ClapTrap(std::string Name)
@@ -27,17 +27,17 @@ ClapTrap::ClapTrap(std::string Name)
     this->HitPoints = 10 ;
     this->EnergyPoints = 10 ;
     this->AttackDamage = 0;
-     std::cout<< this->Name <<" constructor called \'ex01\'"<<std::endl;
+     std::cout<< this->Name <<" constructor called \'ex02\'"<<std::endl;
 }
 
 ClapTrap::  ~ClapTrap()
 {
-    std::cout<< this->Name << " destructor called \'ex01\'"<<std::endl;
+    std::cout<< this->Name << " destructor called \'ex02\'"<<std::endl;
 }
 
 ClapTrap::  ClapTrap(const ClapTrap &copy)
 {
-    std::cout<< "Copy constructor called \'ex01\'" <<std::endl;
+    std::cout<< "Copy constructor called \'ex02\'" <<std::endl;
     this->Name = copy.Name;
     this->HitPoints = copy.HitPoints ;
     this->EnergyPoints = copy.EnergyPoints ;
@@ -46,7 +46,7 @@ ClapTrap::  ClapTrap(const ClapTrap &copy)
 
 ClapTrap&ClapTrap:: operator=(const ClapTrap &rf)
 {
-    std::cout <<"Copy assignment operator called \'ex01\'" <<std::endl;
+    std::cout <<"Copy assignment operator called \'ex02\'" <<std::endl;
     this->Name = rf.Name;
     this->HitPoints = rf.HitPoints;
     this->EnergyPoints = rf.EnergyPoints;

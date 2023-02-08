@@ -6,7 +6,7 @@
 /*   By: iqabbal <iqabbal@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/08 14:29:34 by iqabbal           #+#    #+#             */
-/*   Updated: 2023/02/08 16:29:27 by iqabbal          ###   ########.fr       */
+/*   Updated: 2023/02/08 17:16:35 by iqabbal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ ClapTrap::  ~ClapTrap()
     std::cout<< this->Name << " destructor called"<<std::endl;
 }
 
-ClapTrap::  ClapTrap(ClapTrap &copy)
+ClapTrap::  ClapTrap(const ClapTrap &copy)
 {
     std::cout<< "Copy constructor called" <<std::endl;
     this->Name = copy.Name;
@@ -46,7 +46,7 @@ ClapTrap::  ClapTrap(ClapTrap &copy)
     this->AttackDamage = copy.AttackDamage;
 }
 
-ClapTrap&ClapTrap:: operator=(ClapTrap &rf)
+ClapTrap&ClapTrap:: operator=(const ClapTrap &rf)
 {
     std::cout <<"Copy assignment operator called" <<std::endl;
     this->Name = rf.Name;
@@ -85,12 +85,12 @@ void ClapTrap::takeDamage(unsigned int amount)
 
 void ClapTrap::beRepaired(unsigned int amount)
 {
-
+ 
     if(this->EnergyPoints > 0 && this->HitPoints != 0)
     {
         this->HitPoints += amount;
         this->EnergyPoints--;
-        td::cout <<"ClapTrap " << this->Name<< " is be repaired and HitPoints now is : " << this->HitPoints <<std::endl;
+        std::cout << this->Name<< " is be repaired and HitPoints now is : " << this->HitPoints <<std::endl;
     }
     else
        std::cout <<"ClapTrap " << this->Name<< " don't able to repaired" <<std::endl;

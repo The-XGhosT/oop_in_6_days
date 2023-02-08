@@ -6,7 +6,7 @@
 /*   By: iqabbal <iqabbal@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/08 14:29:20 by iqabbal           #+#    #+#             */
-/*   Updated: 2023/02/08 14:44:03 by iqabbal          ###   ########.fr       */
+/*   Updated: 2023/02/08 16:59:00 by iqabbal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,8 @@ class ClapTrap
         ClapTrap(std::string Name);
         ClapTrap();
         ~ClapTrap();
-        ClapTrap(ClapTrap &copy);
-        ClapTrap& operator=(ClapTrap &rf);
+        ClapTrap(const ClapTrap &copy);
+        ClapTrap& operator=(const ClapTrap &rf);
         
         
         void attack(const std::string& target);
