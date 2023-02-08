@@ -1,0 +1,174 @@
+In English: Imagine you have a toy box that has all of your toys in it. The toy box represents the data of your class. Now, imagine you have a friend who wants to play with your toys, but you don't want them to touch the toy box directly. You give them a special handle, kind of like a tool, to reach in and get the toys. The handle represents the member functions of your class. This way, your friend can play with the toys, but they have to go through the handle to do it. The handle makes sure that the toy box is not damaged, and that your friend can only take out one toy at a time. That's what the Orthodox Canonical Form does in C++98 before C++11!
+
+In Arabic: انظر إلى علبة لعبة لديها جميع لعبتك فيها. علبة اللعب تمثل بيانات فئة الخاص بك. الآن، انظر إلى صديق لديه الشغف بلعب بلعبتك، ولكن لا تريد أن يلمس علبة اللعب على شكل مباشر. فأنت تعطيها مقبض خاص، مثل أداة، للوصول إلى اللعب والحصول عليها. المقبض يمثل وظائف الفئة. بذلك، يمكن لصديقك اللعب باللعب، ولكنهم يجب أن يذهبوا من خلال المقبض للفعل. المقبض يؤكد على أن علبة اللعب لا تتلف، وأن صديقك يمكن أن يأخذ لعبة واحدة في الوقت الواحد. هذا ما يقوم به صيغة الأرثوذكسية الكانونية في C++98 قبل C++11!
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+In English: The Orthodox Canonical Form is like having a secret box that holds all of the important things you want to keep safe. You don't want anyone to be able to get to the box directly, so you give them a special key. The key represents the member functions of your class, and it only allows the user to access the data in the box in a controlled and safe way. This way, the data in the box stays protected, and the user can only access one thing at a time. That's what the Orthodox Canonical Form does in C++98 before C++11!
+
+In Arabic: صيغة الأرثوذكسية الكانونية هي مثل علبة سرية تحتوي على جميع الأشياء المهمة التي تريد الحفاظ عليها. لا تريد أن يتمكن أي شخص من الوصول إلى العلبة مباشرة، لذلك تعطيهم مفتاح خاص. المفتاح يمثل وظائف الفئة، ويسمح للمستخدم فقط بالوصول إلى بيانات العلبة بطريقة محددة وآمنة. بذلك، تبقى بيانات العلبة آمنة، ويمكن للمستخدم الوصول إلى شيء واحد في الوقت الواحد. هذا ما يقوم به صيغة الأرثوذكسية الكانونية في C++98 قبل C++11!
+
+--------------------------------------------------------------------
+-------------------------------------------------------------------
+
+
+In English: The Orthodox Canonical Class Form (OCCF) is like a blueprint for building a special kind of toy box. The blueprint has four important steps for making the toy box work properly.
+
+Step 1: The Default Constructor is like putting together the pieces of the toy box so it's ready to use.
+Step 2: The Copy Constructor is like making a duplicate of the toy box so you can have two of them.
+Step 3: The Destructor is like taking the toy box apart so you can use the pieces again later.
+Step 4: The Copy Assignment Operator is like switching one toy box with another toy box.
+
+In Arabic: صيغة الأرثوذكسية الكانونية الفرعية (OCCF) هي مثل مخطط لبناء نوع معين من علبة لعب. المخطط لديه أربعة خطوات مهمة لجعل علبة اللعب تعمل بشكل صحيح.
+
+الخطوة 1: المنشئ الافتراضي هو مثل جمع الأجزاء لعلبة اللعب حتى تكون جاهزة للاستخدام.
+الخطوة 2: المنشئ النسخ هو مثل عمل نسخة لعلبة اللعب حتى تتمكن من الحصول على نسختين.
+الخطوة 3: المنهي هو مثل فك العلبة لعب حتى تتمكن من استخدام الأجزاء مجدداً لاحقاً.
+الخطوة 4: المعامل النسخ الصريح هو مثل تبديل علبة لعب بعلبة لعب أخرى.
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+n English:
+Here is an example of building a simple program using the Orthodox Canonical Class Form (OCCF) in C++.
+
+Step 1: Define the class
+
+kotlin
+Copy code
+class ToyBox {
+public:
+    ToyBox();  // Default Constructor
+    ToyBox(const ToyBox &tb);  // Copy Constructor
+    ~ToyBox();  // Destructor
+    ToyBox &operator=(const ToyBox &tb);  // Copy Assignment Operator
+};
+Step 2: Implement the constructor
+
+css
+Copy code
+ToyBox::ToyBox() {
+    // code to initialize the toy box
+}
+Step 3: Implement the copy constructor
+
+css
+Copy code
+ToyBox::ToyBox(const ToyBox &tb) {
+    // code to make a duplicate of the toy box
+}
+Step 4: Implement the destructor
+
+css
+Copy code
+ToyBox::~ToyBox() {
+    // code to take the toy box apart
+}
+Step 5: Implement the copy assignment operator
+
+kotlin
+Copy code
+ToyBox &ToyBox::operator=(const ToyBox &tb) {
+    // code to switch one toy box with another
+    return *this;
+}
+
+
+-------
+copy constructor
+
+
+In English:
+A copy constructor is a special constructor in a class that allows you to make a new object based on an existing one. Think of it like making a copy of a toy. The new toy will be just like the old one, but it will be a separate toy that you can play with on its own.
+
+In Arabic:
+منشئ النسخ هو منشئ خاص في الفئة الذي يسمح لك بإنشاء كائن جديد على أساس كائن موجود. فكر في ذلك مثل عمل نسخة للعبة. العبة الجديدة ستكون مثل القديمة، ولكنها ستكون عبة مستقلة يمكنك اللعب بها على حدة.
+
+----------------
+copy assignemt operator
+
+
+In English:
+The copy assignment operator is a special operator in a class that allows you to assign the values from one object to another existing object. Think of it like giving your old toy to a friend and then getting a new toy in return. The new toy will have the same features as the old toy that you gave to your friend.
+
+In Arabic:
+معامل التعيين النسخ هو معامل خاص في الفئة الذي يسمح لك بتعيين قيم من كائن إلى كائن آخر موجود. فكر في ذلك مثل إعطاء العبة القديمة لصديق ومن ثم الحصول على عبة جديدة كعودة. العبة الجديدة ستحتوي على نفس الميزات التي لديها العبة القديمة التي أعطيتها لصديقك.
+
+------------------------------
+what is different between copy constructor and copy assignment operator explain it for kids speak arabic and english
+
+
+In English:
+A copy constructor and a copy assignment operator are similar, but there is a key difference. The copy constructor creates a new object based on an existing one, while the copy assignment operator assigns the values from one object to another existing object. Think of it like making a copy of a toy with the copy constructor and giving your old toy to a friend and getting a new toy in return with the copy assignment operator.
+
+In Arabic:
+منشئ النسخ ومعامل التعيين النسخ مشابهان، ولكن هناك فرق هام. منشئ النسخ ينشئ كائن جديد على أساس كائن موجود، بينما يعين معامل التعيين النسخ قيم من كائن إلى كائن آخر موجود. فكر في ذلك مثل عمل نسخة للعبة باستخدام منشئ النسخ وإعطاء العبة القديمة لصديق والحصول على عبة جديدة كعودة باستخدام معامل التعيين النسخ.
+
+---------------------------------------
+give me an example usig code and expalin it for kids speak arabic and english
+Here is an example in C++ that demonstrates the difference between a copy constructor and a copy assignment operator:
+
+
+
+
+
+
+
+
+
+#include <iostream>
+
+class Toy {
+public:
+    Toy(int x) {
+        value = x;
+    }
+    
+    // Copy constructor
+    Toy(const Toy &t) {
+        value = t.value;
+    }
+
+    // Copy assignment operator
+    Toy &operator=(const Toy &t) {
+        value = t.value;
+        return *this;
+    }
+
+    int getValue() const {
+        return value;
+    }
+
+private:
+    int value;
+};
+
+int main() {
+    // Creating a toy object using the constructor
+    Toy t1(5);
+    std::cout << "t1: " << t1.getValue() << std::endl;
+
+    // Creating a copy of the toy object using the copy constructor
+    Toy t2 = t1;
+    std::cout << "t2 (copy constructor): " << t2.getValue() << std::endl;
+
+    // Creating another toy object
+    Toy t3(10);
+    std::cout << "t3: " << t3.getValue() << std::endl;
+
+    // Assigning the value from t3 to t2 using the copy assignment operator
+    t2 = t3;
+    std::cout << "t2 (copy assignment operator): " << t2.getValue() << std::endl;
+
+    return 0;
+}
+
+In English:
+This code defines a class called Toy with a constructor, a copy constructor, and a copy assignment operator. The constructor takes an integer value as an argument and assigns it to the value member variable. The copy constructor creates a new object with the same value as an existing object. The copy assignment operator assigns the value of one object to another existing object. In the main function, we create three Toy objects t1, t2, and t3, and demonstrate the use of the copy constructor and the copy assignment operator.
+
+In Arabic:
+هذا الكود يحدد فئة تسمى Toy مع منشئ ومنشئ نسخ ومعامل تعيين نسخ. المنشئ يأخذ قيمة عددية كمدخل ويعينها لمتغير العضو value. منشئ النسخ ينشئ كائن جديد بنفس القيمة ككائن موجود. معامل التعيين النسخ يعين قيمة كائن إلى كائن آخر موجود. في دالة main، نخلق ثلاث كائنات Toy باسماء t1، t2، و`t3
+
+
+

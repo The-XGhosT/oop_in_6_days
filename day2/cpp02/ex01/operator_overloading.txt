@@ -1,0 +1,16 @@
+matalan bari njma3 joj a3dad dyalin int int wax n9dar ah?
+o ila brit njma3 float m3a float wax c++ kat9dar jawab howa ah 
+wlkn brit njma3 joj dyal object wax n9dar jawab howa la ?
+3lax jawab sahel mahel howa ana ojbect howa data user defined 
+bel3arbiya data user li kay9adha compiler makay3rafch data type dyalek
+li 9aditi howa ka compiler kay3raf ghi assignment sf o machi
+ga3 assignment li kay3raf f ab3d l7alat f assignment makay9edch
+kay5asni n9ad w7da jdida
+ nsa 3liya had tkharbi9 kamel o 3tini l7al 
+ l7al howa t9ad functions dyalek
+
+
+
+ c3 = c1 - c2 ===> rah f asl compiler kaychofha haka "c3.operator=(c1.operator-(c2))"
+
+ this howa pointer kaypointi 3la object li 3ayet 3la dik function

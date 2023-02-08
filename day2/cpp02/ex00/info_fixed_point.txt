@@ -1,0 +1,80 @@
+Arabic:
+
+هذا النص يخبر عن نوع جديد من الأرقام بالبرمجة 
+بدلا من الأرقام الصحيحة والأرقام العشرية التي
+ كانت كل ما عرفته في برمجتك. هذا النوع الجديد هو
+ الأرقام المحددة وهي عالية في الدقة والأداء
+ والنطاق والدقة، وهذا ما يشير إلى أنها مناسبة
+ جدا لبرمجة الرسومات الحاسوبية ومعالجة الصوت والبرمجة العلمية.
+
+
+ English:
+
+This text is about a new type of numbers in programming,
+instead of the integers and floating-point numbers that 
+you knew before. This new type is called fixed-point 
+numbers and they are great in terms of accuracy,
+performance, range, and precision.
+This makes them very suitable for computer graphics programming,
+sound processing, and scientific programming.
+
+
+
+//question : please what is this fixed-point in programming speak arabic and english
+
+Arabic:
+
+"Fixed-point" في البرمجة هو نوع من
+ الأرقام الذي يوزع
+ النقطة العشرية على 
+مكان محدد من الأرقام
+، على عكس الأرقام 
+العشرية التي لا يوزع
+ عليها نقطة العشرية في مكان محدد.
+
+English:
+
+"Fixed-point" in programming is 
+a type of number that has the 
+decimal point placed at a fixed 
+location within the number, 
+unlike floating-point numbers
+ which don't have a fixed decimal place.
+
+
+ //question : give me an example and explain it , speak arabic and english
+
+Arabic:
+
+مثال: نظرأ إلى الأرقام 3.14159265 و 2.7182818
+3. هذه هي الأرقام العشرية. لكن نظرأ إلى 
+الأرقام 16384 و 8192. هذه هي الأرقام
+ المحددة، حيث أن النقطة العشرية توزع على 
+مكان محدد وهو الرقم الخامس من الأعلى.
+
+English:
+
+Example: Let's look at the numbers 
+3.14159265 and 2.71828183. These are 
+floating-point numbers. But let's look
+at the numbers 16384 and 8192. 
+These are fixed-point numbers,
+where the decimal point is placed
+at a fixed location, which is 
+the fifth number from the left.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
