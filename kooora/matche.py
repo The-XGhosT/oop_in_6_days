@@ -107,12 +107,45 @@ Dic_Moroccan ={"Fath Casablanca" :"شباب الفتح البيضاوي",
 "Moroccan Professional Inwi Botola 1":"🇲🇦الدوري المغربي-"
  }
 
+# Dic_champion_afrique ={ "Wydad Athletic Club":"الوداد المغربي",
+# " Kabylie":" شبيبة القبائل الجزائري",
+# "Petro Atletico de Luanda":" بيترو دي لواندا الأنجولي ",
+# "AS Vita Club":" فيتا كلوب",
+# "Mamelodi Sundowns":"صن داونز الجنوب أفريقي ",
+# "Al Hilal Omdurman":"الهلال السوداني",
+# "Coton Sport":" القطن الكاميروني",
+# "Al Ahly":"الأهلي المصري",
+# "Vipers SC":"فايبرز الأوغندي",
+# "Raja Club Athletic":"الرجاء المغربي",
+# "Horoya Athletic Club":"حوريا الغيني.",
+# "Simba S.C":" سيمبا التنزاني",
+# "Esperance ST":"الترجي التونسي ",
+# "Al Merrikh Omdurman":" المريخ السوداني ",
+# "El Zamalek":"الزمالك المصري",
+# "Chabab Riadhi De Belouizdad
+# ":"شباب بلوزداد الجزائري"}
 
+Dic_PremierLeague ={'Arsenal': 'آرسنال', 'Aston Villa': 'أستون فيلا', 'Chelsea': 'تشيلسي', 'FC Everton': 'إيفرتون', 'FC Fulham': 'فولهام', 'Leeds United': 'ليدز يونايتد', 'Liverpool': 'ليفربول', 'Manchester City': 'مانشستر سيتي', 'Manchester United': 'مانشستر يونايتد', 'Newcastle United': 'نيوكاسل يونايتد', 'Southampton': 'ساوثهامتون', 'Tottenham Hotspur': 'توتنهام هوتسبير', 'West Ham United': 'وست هام يونايتد', 'Leicester City': 'ليستر سيتي', 'Crystal Palace': 'كريستال بالاس', 'Nottingham Forest FC': 'نوتينغهام فورست', 'Wolverhampton Wanderers': 'وولفرهامبتون', 'AFC Bournemouth': 'بورنموث', 'Brighton & Hove Albion': 'برايتون', 'Brentford': 'برينتفورد'}
+
+Dic_spanish_league={'Athletic de Bilbao': 'أتلتيك بيلباو', 'Atletico de Madrid': 'أتلتيكو مدريد', 'FC Barcelona': 'برشلونة', 'Real Betis': 'ريال بيتيس', 'Celta de Vigo': 'سيلتا فيغو', 'RCD Espanyol': 'إسبانيول', 'Real Mallorca': 'ريال مايوركا', 'Osasuna': 'أوساسونا', 'Real Madrid CF': 'ريال مدريد', 'Real Sociedad': 'ريال سوسييداد', 'Rayo Vallecano': 'رايو فاليكانو', 'Sevilla FC': 'إشبيلية', 'Valencia C.F': 'فالنسيا', 'Real Valladolid': 'بلد الوليد', 'Villarreal CF': 'فياريال', 'UD Almeria': 'ألميريا', 'Getafe CF': 'خيتافي', 'Elche CF': 'إلتشي', 'Cadiz CF': 'قاديش', 'Girona': 'جيرونا'}
+
+
+Dic_italie ={'AC Milan': 'ميلان', 'Atalanta': 'أتلانتا', 'Bologna': 'بولونيا', 'Empoli': 'إمبولي', 'Internazionale Milano': 'انتر ميلان', 'Juventus FC': 'يوفنتوس', 'SS Lazio': 'لاتسيو', 'AS Roma': 'روما', 'Torino FC': 'تورينو', 'Udinese Calcio': 'أودينيزي', 'US Lecce': 'ليتشي', 'UC Sampdoria': 'سامبدوريا', 'SSC Napoli': 'نابولي', 'Hellas Verona FC': 'هيلاس فيرونا', 'Salernitana': 'ساليرنيتانا', 'ACF Fiorentina': 'فيورنتينا', 'US Cremonese': 'كريمونيزي', 'AC Monza': 'مونزا', 'Spezia Calcio': 'سبيزيا', 'US Sassuolo Calcio': 'ساسولو'}
+
+
+Dic_Bundesliga={'Bayer 04 Leverkusen': 'باير ليفركوزن', 'FC Bayern Munich': 'بايرن ميونيخ', 'Borussia Dortmund': 'بوروسيا دورتموند', 'Borussia Monchengladbach': 'بوروسيا مونشنغلادباخ', 'Hertha BSC': 'هيرتا برلين', 'FC Schalke 04': 'شالكه 04', 'VfB Stuttgart': 'شتوتجارت', 'VFL Bochum': 'بوخوم', 'SV Werder Bremen\t': 'فيردر بريمن', 'VfL Wolfsburg': 'فولفسبورج', 'SC Freiburg': 'فرايبورج', 'Eintracht Frankfurt': 'آينتراخت فرانكفورت', '1. FC Koln': 'كولن', 'FSV Mainz 05': 'ماينز 05', 'TSG 1899 Hoffenheim': 'هوفنهايم', '1. FC Union Berlin': 'يونيون برلين', 'FC Augsburg': 'أوجسبورج', 'RB Leipzig': 'لايبزيج'}
+
+Dic_France={'AC Ajaccio': 'اجاكسيو', 'AJ Auxerre': 'أوكسير', 'RC Lens': 'لانس', 'LOSC Lille': 'ليل', 'Olympique Lyonnais': 'ليون', 'Olympique de Marseille': 'مارسيليا', 'AS Monaco': 'موناكو', 'HSC Montpellier': 'مونبلييه', 'FC Nantes': 'نانت', 'OGC Nice': 'نيس', 'Paris Saint-Germain': 'باريس سان جيرمان', 'Stade Rennais FC': 'رين', 'RC Strasbourg': 'ستراسبورج', 'ES Troyes AC': 'تروا', 'Toulouse FC': 'تولوز', 'Clermont Foot 63': 'كليرمون فوت 63', 'Stade brestois 29': 'ستاد بريست 29', 'Stade de Reims': 'ستاد ريمس', 'FC Lorient': 'لوريان', 'Angers SCO': 'أنجيه'}
 ff = content
 Dic_equipe = {}
 Dic_equipe.update(Dic_Qatar)
 Dic_equipe.update(Dic_Portugal)
 Dic_equipe.update(Dic_Moroccan)
+Dic_equipe.update(Dic_PremierLeague)
+Dic_equipe.update(Dic_spanish_league)
+Dic_equipe.update(Dic_italie)
+Dic_equipe.update(Dic_Bundesliga)
+Dic_equipe.update(Dic_France)
 y = return_matches(ff)
 
 file = "file.txt"
