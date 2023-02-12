@@ -6,7 +6,7 @@
 /*   By: iqabbal <iqabbal@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/08 03:40:19 by iqabbal           #+#    #+#             */
-/*   Updated: 2023/02/08 04:04:12 by iqabbal          ###   ########.fr       */
+/*   Updated: 2023/02/12 04:20:40 by iqabbal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,12 +41,12 @@ class Fixed{
         Fixed operator/(const Fixed &n) const;
 
         //comparison operators
-        bool operator>(const Fixed &n)const;
-        bool operator<(const Fixed &n)const;
-        bool operator>=(const Fixed &n)const;
-        bool operator<=(const Fixed &n)const;
-        bool operator==(const Fixed &n)const;
-        bool operator!=(const Fixed &n)const;
+        bool operator> (const Fixed &n) const;
+        bool operator< (const Fixed &n) const;
+        bool operator>=(const Fixed &n) const;
+        bool operator<=(const Fixed &n) const;
+        bool operator==(const Fixed &n) const;
+        bool operator!=(const Fixed &n) const;
 
         //4 increment/decrement
         Fixed operator--(int);

@@ -1,3 +1,14 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   File.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: iqabbal <iqabbal@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/02/12 09:27:23 by iqabbal           #+#    #+#             */
+/*   Updated: 2023/02/12 10:16:17 by iqabbal          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "File.hpp"
 
@@ -29,7 +40,7 @@ std::string ft_str_replace(std::string s1,std::string s2,std::string s3)
      return(str);
 }
 
-std::string ft_open_a_file(std::string name)
+std::string ft_open_a_file(char *name)
 {
     std::fstream file;
     std::string content ;
@@ -38,22 +49,25 @@ std::string ft_open_a_file(std::string name)
     if(file.fail())
     {
         std::cout << "Error";
-        exit(0);
+        return("");
     }
     while(!file.eof())
     {
         getline(file,content);
-        content = content + "\n";
+        if(!file.eof())
+            content += "\n";
         str = str + content;
     }
+    if (!content.length())
+    {std::cout << "empty file !!"; return "";}
     file.close();
     return(str);
 }
 
-void creat_a_repalce_file(std::string name, std::string content)
+void creat_a_repalce_file(char *name ,std::string content)
 {
     std::fstream nfile;
-    name = name + ".replace";
+   
     nfile.open(name, std::ios::out);
     nfile << content;
 }

@@ -1,0 +1,67 @@
+Sure! Pointers to member functions are a bit advanced
+ for beginners, but I'll do my best to explain it in 
+ a simple way.
+Imagine you have a toy box, and inside the toy box, 
+you have different toys, like cars, dolls, and balls.
+ And you have a big list of all the toys you have, with
+  their names and where they are kept.
+The list is like a big map that helps you find the toys 
+you want to play with. The map tells you the toy's name,
+ and the box where it is kept.
+Now, what if you want to know how to play with a particular
+ toy? You would need to go to the instructions book that 
+ goes with the toy, right? The instructions book would 
+ tell you how to play with the toy.
+In the same way, in programming, we have classes, 
+which are like boxes with different toys (member functions)
+ inside them. And we have objects, which are like the toys themselves.
+A pointer to a member function is like a map that helps 
+you find the instructions book (the function) for a particular
+ toy (the object). So, you can play with the toy using the 
+ instructions in the book.
+I hope that helps! Let me know if you have any more questions.
+
+
+حسنا، سأحاول أن أشرح ذلك لك بطريقة بسيطة.     
+
+تخيل أن لديك علبة لعبة، وداخل العلبة، لديك لعب عديدة، مثل السيارات والدمى والكرات. ولديك قائمة كبيرة بجميع اللعب الذي لديك، مع أسمائها وأين يتم حفظها.
+
+القائمة كالخريطة الكبيرة التي تساعدك على العثور على اللعب التي ترغب في اللعب بها. الخريطة تخبرك اسم اللعبة والعلبة التي يتم حفظها فيها.
+
+والآن، ماذا لو كنت ترغب في معرفة كيفية اللعب بلعبة معينة؟ عليك أن تذهب إلى كتاب التعليمات الذي يصاحب اللعبة، أليس كذلك؟ كتاب التعليمات سيخبرك كيفية اللعب باللعبة.
+
+في نفس الطريقة، في البرمجة، لدينا الفئات، التي كالعلب ذات اللعب المختلفة (الدوال الأعضاء) داخلها. ولدينا الكائنات، التي كاللعب ذاتها.
+
+نسخة إلى دالة عضو هي كالخريطة التي تساعدك على العثور على كتاب التعليمات (الدالة) للعبة معينة (الكائن). حتى تتمكن من اللعب باللعبة باستخدام التعليم
+
+
+
+
+The syntax void (Toy::*ptr[2])() is used to declare an array of pointers to member functions of the class Toy.
+
+The general syntax for declaring a pointer to a member function of a class is:
+
+scss
+Copy code
+return_type (class_name::*pointer_name)(arguments);
+Here, return_type is the return type of the member function, class_name is the name of the class, pointer_name is the name of the pointer, and arguments are the arguments of the member function.
+
+In the case of void (Toy::*ptr[2])(), Toy:: is used to specify that the pointer ptr points to a member function of the class Toy. The void return type means that the member function does not return a value. The empty parentheses () indicate that the member function takes no arguments.
+
+I hope that helps!
+
+
+
+تعبير النوع void (Toy::*ptr[2])() يستخدم لتعريف مصفوفة من مؤشرات إلى وظائف عضو للفئة Toy.
+
+الصيغة العامة لتعريف مؤشر إلى وظيفة عضو في فئة هي:
+
+scss
+Copy code
+return_type (class_name::*pointer_name)(arguments);
+هنا، return_type هو نوع العودة للوظيفة العضو، class_name هو اسم الفئة، pointer_name هو اسم المؤشر، و arguments هي الوسيطات المعطاة للوظيفة العضو.
+
+في الحالة void (Toy::*ptr[2])()، يتم استخدام Toy:: لتحديد أن المؤشر ptr يشير إلى وظيفة عضو في الفئة Toy. وتعني تعبير النوع void أن الوظيفة العضو لا تقوم بإرجاع قيمة. والأقواس الفارغة () تشير إلى أن الوظيفة العضو لا تأخذ أي وسيطات.
+
+أتمنى أن يساعد هذا!
+

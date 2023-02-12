@@ -5,6 +5,7 @@ RM = rm
 
 SRCS = main.cpp newZombie.cpp Zombie.cpp randomChump.cpp
 INCL = Zombie.hpp
+
 OBJS = $(SRCS:.cpp=.o)
 
 all: $(NAME)

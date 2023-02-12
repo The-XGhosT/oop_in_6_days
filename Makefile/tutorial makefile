@@ -1,0 +1,16 @@
+Okay, let's pretend you want to make a cake. You would need ingredients like sugar, flour, eggs, and milk, right? And you would also need to follow a recipe to know what to do with those ingredients, like mix them together and bake them in the oven.
+
+A Makefile is like a recipe for a computer program. Just like you need ingredients to make a cake, a computer program needs different files and libraries to work. A Makefile tells the computer what it needs and what to do with those things to make the program work.
+
+Think of it this way: you can give the Makefile to someone else, and they can use it to make the same cake you made, just like you can give a recipe to someone else and they can use it to make the same cake you made.
+
+Makefiles make it easier to build and manage big and complex computer programs.
+
+
+حسنا، دعونا نتخيل أن تريد تحضير كعكة. ستحتاج إلى مكونات مثل السكر، الطحين، البيض، والحليب، أليس كذلك؟ وستحتاج أيضًا إلى اتباع وصفة لمعرفة ما يجب القيام به مع هذه المكونات، مثل خلطها معًا وخبزها في الفرن.
+
+Makefile هو كوصفة لبرنامج حاسوب. كما كنت تحتاج إلى مكونات لتحضير كعكة، يحتاج برنامج حاسوب إلى ملفات ومكتبات مختلفة للعمل. Makefile يخبر الحاسوب ما هو الذي يحتاج إليه وما يجب القيام به مع هذه الأشياء لجعل البرنامج يعمل.
+
+شاهد ذلك بهذه الطريقة: يمكنك إعطاء Makefile إلى شخص آخر، ويمكن له أن يستخدمه لتحضير نفس الكعكة التي حضرتها، كما يمكن إعطاء وصفة إلى شخص آخر ويمكن له أن يستخدمها لتحضير نفس الكعكة التي حضرتها.
+
+Makefiles تجعل أسهل بناء وإدارة البرامج الحاسوبية الكبيرة والمعقدة.

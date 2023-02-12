@@ -6,7 +6,7 @@
 /*   By: iqabbal <iqabbal@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/08 02:44:27 by iqabbal           #+#    #+#             */
-/*   Updated: 2023/02/08 03:55:51 by iqabbal          ###   ########.fr       */
+/*   Updated: 2023/02/12 10:44:49 by iqabbal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ Fixed::Fixed(const int number)
 }
 Fixed::Fixed(const float number)
 {
-    this->FixedPointValue = std::roundf(number  * (1 << this->FractionalBits));
+    this->FixedPointValue = roundf(number  * (1 << this->FractionalBits));
 }
 
 

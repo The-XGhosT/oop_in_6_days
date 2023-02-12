@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ilyas <ilyas@student.42.fr>                +#+  +:+       +#+        */
+/*   By: iqabbal <iqabbal@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/04 22:15:29 by ilyas             #+#    #+#             */
-/*   Updated: 2023/02/04 22:50:44 by ilyas            ###   ########.fr       */
+/*   Created: 2023/02/12 08:48:29 by iqabbal           #+#    #+#             */
+/*   Updated: 2023/02/12 09:22:50 by iqabbal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "HumanB.hpp"
 #include "HumanA.hpp"

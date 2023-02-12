@@ -1,15 +1,26 @@
-hhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+NAME = file
 
+CFLAGS = -Wall -Wextra -Werror -std=c++98
+CC = c++
+RM = rm 
 
-eeeeeeeee
-hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhhhhhhhhhhhhhhhhhhhhhhhhh
-hhhhhhhhhhhhhhhhhhhhhhhhhhh
-hh 
-hhhhhhhhhhhhhhhhhhhhhhhhhhh
+SRC = File.cpp main.cpp
+INC = File.hpp
+
+OBJS = $(SRC:.cpp=.o)
+
+all: $(NAME)
+
+$(NAME): $(OBJS)
+	@$(CC) $(CFLAGS) $(OBJS) -o $(NAME)
+
+%.o:%.cpp $(INCL)
+	@$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	@$(RM) $(OBJS)
+
+fclean: clean
+	@$(RM) $(NAME)
+
+re: fclean all 
